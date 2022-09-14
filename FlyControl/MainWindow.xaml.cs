@@ -38,6 +38,8 @@ namespace FlyControl
             Uri url = new Uri(str_url);
             webBrowser.Navigate(url);
             //webBrowser.ObjectForScripting = this;
+
+            //创建分支 修改
         }
     }
 }
